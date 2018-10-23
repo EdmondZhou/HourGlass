@@ -3,7 +3,7 @@ public class Hourglass {
 	public static void main(String[] args) {
 		printBase();
 		printTopHalf();
-		System.out.println("     ||");
+		printmid();
 		printBotHalf();
 		printBase();
 	}
@@ -12,7 +12,9 @@ public class Hourglass {
 			System.out.print(str);
 		}
 	}
-
+	public static void printmid() {
+		System.out.println("     ||");
+	}
 	public static void printBase() {
 		String side = "|";
 		System.out.print(side);
